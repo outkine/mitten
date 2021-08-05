@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-rescript",
+  "scripts": {
+    "build": "rescript build",
+    "pack": "esbuild lib/js/client/client.js --bundle --outfile=static/client.js",
+    "build-w": "rescript build -w",
+    "pack-w": "esbuild lib/js/client/client.js --bundle --outfile=static/client.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.18",
+    "esy": "^0.6.11",
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "bs-webapi": "^0.19.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

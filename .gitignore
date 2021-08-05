@@ -1,0 +1,14 @@
+# BuckleScript.
+node_modules/
+lib/
+
+# Dune.
+_build/
+.merlin
+
+# esy.
+_esy
+esy.lock
+
+# esbuild.
+static/

@@ -1,0 +1,13 @@
+{
+  "name": "fullstack-rescript",
+  "bs-dependencies": [
+    "@rescript/react",
+    "bs-webapi"
+  ],
+  "sources": [
+    "client",
+    "common"
+  ],
+  "reason": { "react-jsx": 3 }
+}
+
