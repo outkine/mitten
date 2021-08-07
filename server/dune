@@ -1,6 +1,6 @@
 (executable
  (name server)
- (libraries common dream))
+ (libraries dream))
 
 (rule
  (targets index.ml)

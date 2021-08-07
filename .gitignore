@@ -1,6 +1,7 @@
 # BuckleScript.
 node_modules/
 lib/
+.bsb.lock
 
 # Dune.
 _build/
@@ -12,3 +13,6 @@ esy.lock
 
 # esbuild.
 static/
+
+# other.
+.vscode

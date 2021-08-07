@@ -2,12 +2,12 @@
   "name": "fullstack-rescript",
   "bs-dependencies": [
     "@rescript/react",
-    "bs-webapi"
+    "re-dnd"
   ],
   "sources": [
     "client",
     "common"
   ],
-  "reason": { "react-jsx": 3 }
+  "reason": { "react-jsx": 3 },
 }
 
